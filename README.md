@@ -73,7 +73,7 @@ to find the most common digram with 2 separate symbols: -]
 and then altered BrainFNORD accordingly to make hail eris a common pairing
 
 from this:
-
+```
 23              [
 5               ]
 pineal          <
@@ -82,9 +82,9 @@ kallisti        .
 chaos           ,
 hail            +
 eris            -
-
+```
 to this:
-
+```
 fnord           <
 kallisti        >
 pineal          .
@@ -93,6 +93,6 @@ chaos           ,
 5               +
 hail            -
 eris            ]
-
+```
 other changes also being occurence related
 
