@@ -3,7 +3,7 @@ Brainfuck/BrainFNORD2 interpreter and Brainfuck/BrainFNORD2 to Brainfuck/BrainFN
 
 using this: https://github.com/arkark/15puzzle-brainfuck
 and this code:
-
+```
 with open("15puzzle.bf.txt") as fi:
 	lines = fi.readlines()
 line = lines[0]
@@ -16,13 +16,13 @@ for i, x in enumerate(line):
     if i+1 == len(line):
         break
     res[str(line[i]+line[i+1])] = res[str(line[i]+line[i+1])] + 1
-
+```
 and then sorting with this:
-
+```
 dict(sorted(res.items(), key=lambda item: item[1]))
-
+```
 I created this: 
-
+```
 {'..': 1,
  '.+': 1,
  '.\n': 1,
@@ -66,7 +66,7 @@ I created this:
  '++': 2572,
  '<<': 8907,
  '>>': 8912}
- 
+```
 ^brainfuck digram sorted occurences^
 
 to find the most common digram with 2 separate symbols: -]
