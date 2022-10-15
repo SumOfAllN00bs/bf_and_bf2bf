@@ -14,6 +14,8 @@ run ```cargo run``` or some such thing, and see what happens.
 
 if I figure out github, I may add the compiled versions to release. just have a look around, see if I was lazy or not.
 
+helpful video: https://www.youtube.com/watch?v=vHkKyY_Hpuw
+
 # Implementation
 using this: https://github.com/arkark/15puzzle-brainfuck
 and this code:
