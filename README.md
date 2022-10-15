@@ -1,6 +1,13 @@
 # bf_and_bf2bf
 Brainfuck/BrainFNORD2 interpreter and Brainfuck/BrainFNORD2 to Brainfuck/BrainFNORD2 converter
 
+# About
+I was looking at the esolang BrainFNORD: https://esolangs.org/wiki/BrainFNORD
+and I noticed how absolutely random it was. Now I like a good bit of chaos, don't get me wrong, but I saw very quickly that it was going to very rarely place the words hail and eris next to each other, and this was the kind of bad chaos that we should avoid. so to bring balance towards a more hodge podge sort of approach I endeavored to lean on the scales a little and make a very serendipitous probability of the hail eris occurance to... occur.
+
+and thus brainFNORD2 was born, simply a reshuffling of symbols and the like to make nice patterns that I like...
+
+# implementation
 using this: https://github.com/arkark/15puzzle-brainfuck
 and this code:
 ```
