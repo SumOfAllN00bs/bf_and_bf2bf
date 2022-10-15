@@ -7,7 +7,14 @@ and I noticed how absolutely random it was. Now I like a good bit of chaos, don'
 
 and thus brainFNORD2 was born, simply a reshuffling of symbols and the like to make nice patterns that I like...
 
-# implementation
+# Running
+both programs are rust code, barely tested, not likely to work under most circumstances, but hello world seems to work, so I'm happy.
+download the zip/repo go to either bf directory or bf2bf directory depending on whether you need an interpreter (bf) or the crosscompiler (bf2bf)
+run ```cargo run``` or some such thing, and see what happens.
+
+if I figure out github, I may add the compiled versions to release. just have a look around, see if I was lazy or not.
+
+# Implementation
 using this: https://github.com/arkark/15puzzle-brainfuck
 and this code:
 ```
